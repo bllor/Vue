@@ -53,7 +53,7 @@ export default {
     <p>20자 이내로 작성하시오.</p>
     <textarea v-model="text" cols="30" role="2"></textarea>
     <p>글자수 : {{ txtCount }}</p>
-    <p v-bind:style="{ color: myColor }">남은글자수 : {{ remainTxt }}</p>
+    <p v-bind:style="{ color: computeColor }">남은글자수 : {{ remainTxt }}</p>
   </div>
 </template>
 <style scoped></style>
